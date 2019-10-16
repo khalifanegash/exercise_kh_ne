@@ -1,8 +1,9 @@
 body{
      border: 1px solid;
      background-color: white;
-     position: centered;
-
+}
+#div{
+     
 }
 .button{
      background:blue;

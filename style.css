@@ -1,0 +1,20 @@
+
+#form1{
+     border: 1px solid blue;
+     background: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% -50%);
+}
+#button{
+     background:blue;
+     color: white;
+     border-radius: 12px;
+     }
+
+#div1{
+     background:yellow;
+     width: 100vw;
+     height: 100vw;
+     }

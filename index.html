@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="style.css">
+     <title>Document</title>
+</head>
+<body>
+     <div id="div1">
+          <form id="form1" action="http://www.somesite.com/somedoc.php">
+               <label style="font-size: 15px" for = "First Name">First Name:</label>
+               <input type="text" name="firstname"><br>
+               <label style="font-size: 15px" for = "Last Name">Last Name:</label>
+               <input type="text" name="lastname"><br>
+               <label style="font-size: 15px" for = "Gender">Gender:</label><br>
+               <input type="radio" name="gender" value="male" checked> Male<br>
+               <input type="radio" name="gender" value="female"> Female<br>
+               <input type="radio" name="gender" value="other"> Other<br>
+          
+               <label style="font-size: 15px" for = "Pet">Pet:</label><br>
+               <input type="checkbox" name="pet" value="cat">Cat<br>
+               <input type="checkbox" name="pet" value="dog">Dog<br>
+               <input type="checkbox" name="pet" value="rabbit">Rabbit<br>
+          
+               <label style="font-size: 15px" for="Address">Address:</label>
+               <input type="text" name="Address"><br>
+               <label type="font-size: 15px" for="Country">Country</label>
+               <select name="Country">
+               <option value="Norway"> Norway</option>
+               <option value="SWEDEN"> SWEDEN</option>
+               <option value="DENMARK"> DENMARK</option>
+               </select>
+               <p> upload your profile picture</p>
+               <p style="font-size: 15px">Upload your profile <picture></picture></p>
+               <input type="file" name="user-profile"><br>
+               <input id="button" type="submit" value="upload">
+               <p>E.MAIL</p>
+               <label style="font-size: 15px" for = "Email">Email:</label> 
+               <input type="text" name="e.mail"><br>
+               <label style="font-size: 15px" for = "Password">Password:</label>
+               <input type="text" name="password"><br>
+               <input id="button" type="submit" name="submit" value="submit"/>
+          </form>
+     </div>
+</body>
+</html>
